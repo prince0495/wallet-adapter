@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Sign = () => {
   return (
     <div className='w-3/6 rounded-lg p-8 flex flex-col items-center gap-4 sign-bg'>

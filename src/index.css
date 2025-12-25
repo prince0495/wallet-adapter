@@ -168,3 +168,11 @@ input[type=number] {
     #eb7500 100%
   );
 }
+
+.black-grad {
+  background: linear-gradient(
+    51deg,
+    #9c48ff,
+    #18f99e
+  );
+}
