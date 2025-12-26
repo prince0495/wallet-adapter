@@ -6,7 +6,7 @@ import Balance from "./Balance"
 import Sign from "./Sign"
 import Transact from "./Transact"
 import Token from "./Token"
-
+import { Toaster } from 'sonner'
 
 export const GlowText = ({text} : {text: string}) => {
   return (
@@ -41,6 +41,7 @@ const Home = () => {
             <Navbar/>
             <RenderScreen/>
         </div>
+        <Toaster/>
     </div>
   )
 }

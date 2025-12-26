@@ -7,25 +7,15 @@ html, body, #root {
 }
 
 body {
-  /* background-color: rgb(29, 25, 25); */
   color: white;
-/* background: linear-gradient(
-  120deg,
-  #0a0d12 0%,
-  #0f172a 60%,
-  #00ffa3 140%
-) */
   background-color: rgb(14, 14, 22);
-
 }
 
-/* Wrapper */
 .gg-wrap {
   position: relative;
   display: inline-block;
 }
 
-/* 🔥 GLOW — gradient copy, blurred */
 .gg-glow {
   position: absolute;
   inset: 0;
@@ -53,7 +43,6 @@ body {
   pointer-events: none;
 }
 
-/* 🎨 MAIN TEXT */
 .gg-text {
   position: relative;
   z-index: 1;
@@ -61,7 +50,7 @@ body {
   font-size: 64px;
   font-weight: 700;
 
-background: linear-gradient(
+  background: linear-gradient(
     91deg,
     #0096ff 0%,
     #bb64ff 42%,
@@ -93,21 +82,16 @@ background: linear-gradient(
   );
 }
 
-
-
-/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
 
-/* Modern standard property (supported by most modern browsers) */
 input[type=number] {
   appearance: none;
 }
@@ -131,7 +115,6 @@ input[type=number] {
 }
 
 .airdrop-grad:hover {
-  /* background: linear-gradient(45deg, #34d58a, #20b040); */
   box-shadow: inset 0 0 15px 5px rgba(50, 205, 50, 0.8);
   cursor: pointer;
 }
@@ -175,4 +158,8 @@ input[type=number] {
     #9c48ff,
     #18f99e
   );
+}
+
+.purple-shadow {
+  box-shadow: 2px 2px #bb64ff;
 }
