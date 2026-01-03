@@ -1,73 +1,17 @@
-# React + TypeScript + Vite
+It's a cool custom token Launchpad, if you ever wanted to launch custom cryptocurrency tokens like Bitcoin, Ethereum or Solana or YOUR_NAME_TOKEN but you first wanted to test it out how without spending a lot of money on those liquidity pools then you can try my app at :
+https://solana-adapter.vercel.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It's on devnet so you don't have to pay real SOL like that on mainnet blockchain.
+To try it out first connect your any solana wallet like phantom or backpack or even metamask to devnet instead of mainnet so that you don't have to pay for gas.
+Go to my website airdrop yourself some solana to cover the gas fees.
+Then just just switch to "Create Token" page of my website to create your first token in just few clicks.
+You just have to fill basic details of your token and baam! you created your first token with just 1 simple button.
+Mint yourself some supply of tokens then you can just manage them with the interactive UI of my webpage.
 
-Currently, two official plugins are available:
+My website can automatically detect the all custom tokens your wallet have currently and you can manage them with the simple UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Try it out and give some feedback, you are just few clicks away to have an experience.
+You can just check out my code and look into solana docs for reference.
+I would strongly urge you to give it a try and build it by yourself and don't forget to make it 2x better than me in terms of functionality and UI so that you can own it.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Thanks for trying it out, or if you are just still reading, man what you waiting for! go ahead and tap on the link above.
